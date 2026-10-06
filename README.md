@@ -12,3 +12,9 @@ npm run dev
 Diez pasos guiados, Playground con matrices editables, inspector de cálculo, selección de token, heatmap, conexiones, precisión visual y presentación de 16 pantallas. Flechas izquierda/derecha para navegar; Escape sale de presentación. Play avanza cada 4.5 segundos.
 
 Los valores derivados se calculan a precisión completa; el escalamiento usa dₖ = 2, la dimensión real de Q y K. La FFN se explica conceptualmente. Las aproximaciones de la matriz de atención en el documento original contienen discrepancias: la app muestra los resultados calculados directamente desde el ejemplo, sin copiar esos redondeos.
+
+## App pública
+
+https://ginaolivares.github.io/attention-explorer/
+
+GitHub Actions ejecuta las pruebas y publica la app en GitHub Pages al actualizar `main`.
